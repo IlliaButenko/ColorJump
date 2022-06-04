@@ -1,0 +1,31 @@
+{
+  "name": "mysql-node-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production pm2 start ./src/server.js",
+    "dev": "nodemon"
+  },
+  "author": "Julia Strichash",
+  "license": "ISC",
+  "dependencies": {
+    "@paralect/node-mongo": "^2.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "leveldown": "^6.0.0",
+    "luxon": "^2.0.2",
+    "mongoose": "^5.13.4",
+    "mongoose-unique-validator": "^2.0.3",
+    "mysql-node": "0.0.5",
+    "mysql2": "^2.2.5",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
